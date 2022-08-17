@@ -1,8 +1,8 @@
 ---
-title: "Automatic Reports with RMarkdown"
-subtitle: "R Bootcamp for Scientific Computing 2020: Lecture 3"
-author: "Keren Xu"
-date: "2020/08/13"
+title: "Creating reproducible reports using R Markdown"
+subtitle: "R Bootcamp for Scientific Computing 2022: Lecture 2"
+author: "Jingxuan He"
+date: "2022/08/17"
 output:
   xaringan::moon_reader:
     css: ["default", "robot", "robot-fonts"]
@@ -29,11 +29,11 @@ xaringanExtra::use_panelset()
 
 class: center, middle, inverse  
 
-# Automatic Reports with RMarkdown   
-### R Bootcamp for Scientific Computing 2020: Lecture 3   
+# Creating reproducible reports using R Markdown
+### R Bootcamp for Scientific Computing 2022: Lecture 2   
 <b>
 <b>
-#### 2020/08/13  
+#### 2022/08/17  
 
 ```{r, echo=FALSE, out.width="70%", out.height="70%"}
 knitr::include_graphics("hex-stickers.png") 
@@ -624,7 +624,7 @@ knitr::include_graphics("engine.png")
 
 .pull-right[
 ### Rendered output  
-```{python, engine.path = 'C:/Users/xuker/Anaconda3/'}
+```{python, engine.path = '/usr/local/bin/python3'}
 x = 'hello, python world!'
 print(x.split(' '))
 ```
@@ -794,6 +794,6 @@ class: center, middle, inverse
 
 `r emo::ji("smile")`
 
-### Keep in touch @kerenxuepi    
+### Keep in touch @ hejingxu@usc.edu    
 
 
