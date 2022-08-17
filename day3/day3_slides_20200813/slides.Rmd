@@ -794,6 +794,6 @@ class: center, middle, inverse
 
 `r emo::ji("smile")`
 
-### Keep in touch @ hejingxu@usc.edu    
+### Keep in touch @ hejingxu@usc.edu!
 
 
